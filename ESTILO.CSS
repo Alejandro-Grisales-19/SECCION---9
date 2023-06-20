@@ -1,0 +1,101 @@
+body{
+    background-color: darkblue;
+    background-image: url(imagenes/FONDO.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: medium;
+    color: aquamarine;
+}
+
+
+.Informacion h1 #Titulo{
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    text-align: center;
+
+}
+
+.Informacion h1{
+    font-size: larger;
+    font-style: italic;
+    text-align: left;
+}
+
+.Informacion h2 #TITULO{
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    text-align: center;
+}
+
+.Informacion h2{
+    font-size: larger;
+    font-style: italic;
+    text-align: right;
+}
+
+.INGRESAREDAD #EDAD{
+    background-color: aquamarine;
+    color: black;
+    font-family: 'Times New Roman';
+    text-align: center;
+}
+
+.INGRESAREDAD button{
+    background-color: aquamarine;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: initial;
+    font-size: medium;
+}
+
+.INGRESARNOMBRE #NOMBRE{
+    background-color: aquamarine;
+    color: black;
+    font-family: 'Times New Roman';
+    text-align: center;
+}
+
+.INGRESARNOMBRE{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.INGRESAREDAD{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.YO{
+    text-align: center;
+}
+
+.YO img{
+    margin-left: 0%;
+    margin-top: 10%;
+    width: 30%;
+    height: 40%;
+}
+
+.YO video{
+    width: 30%;
+    height: 40%;
+}
+
+#NOVIA{
+    width: 30%;
+    height: 100%;
+}
+
+::-webkit-scrollbar{
+    width: 12px;
+}
+::-webkit-scrollbar-track{
+    background: aquamarine;
+    border-radius: 50px;
+
+}
+::-webkit-scrollbar-thumb{
+    background:black;
+    border-radius: 50px;
+}
