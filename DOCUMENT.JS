@@ -23,7 +23,8 @@ function validaEmail(email){
 
 function validaForm(){
     const input = document.getElementById("email")
-    const inputvalue = input.value
+    var inputvalue = input.value
+    
 
     if(!validaEmail(inputvalue)){
         alert('Por favor ingrese un correo valido.')
