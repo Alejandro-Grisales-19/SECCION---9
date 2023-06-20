@@ -27,8 +27,10 @@ function validaForm(){
 
     if(!validaEmail(inputvalue)){
         alert('Por favor ingrese un correo valido.')
+        inputvalue="";
     }else{
         alert('Correo electronico enviado correctamente.')
+        inputvalue="";
     }
     
 }
