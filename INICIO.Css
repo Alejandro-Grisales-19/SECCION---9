@@ -25,3 +25,11 @@ body{
     background:black;
     border-radius: 50px;
 }
+.GALERIA{
+    max-width: 1200px;
+    max-height: 1200px;
+}
+.IMAGEN-GALERIA{
+    max-width: 99%;
+    max-height: 99%;
+}
