@@ -25,11 +25,14 @@ body{
     background:black;
     border-radius: 50px;
 }
-.GALERIA{
-    max-width: 1200px;
-    max-height: 1200px;
+
+.slider{
+    width: 100%;
+    height: auto;
 }
-.IMAGEN-GALERIA{
-    max-width: 99%;
-    max-height: 99%;
+
+#slider-imagen{
+    max-width: 500px;
+    max-height: 400px;
+    overflow: hidden;
 }
